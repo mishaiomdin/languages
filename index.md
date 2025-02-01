@@ -1,8 +1,8 @@
 ---
 layout: mylayout
-title: Languages
+title:
 header: 🏠︎
-lang_code:
+lang_code: ru
 ---
 
 # Languages script
@@ -11,7 +11,7 @@ Here, I will be publishing scripts for the languages I learn and teach.
 
 ## Languages
 * <a href="/languages/ru"><button name="button" class="button">Russian</button></a>
-* <a href="/languages/ru"><button name="button" class="button">English</button></a>
+* English
 * German
 * French
 * Hebrew

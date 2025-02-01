@@ -19,6 +19,20 @@
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
 
+      {% assign languages = "en,de,ru,fr,he" | split: "," %}
+      <div style="position: sticky; top: 0; background: white; padding: 10px; display: flex; gap: 10px; border-bottom: 1px solid #ccc;">
+        {% for cur_lang in languages %}
+        <span 
+        {% if cur_lang == page.lang_code %}
+          style="color: red; font-weight: bold;"
+        {% endif %}>
+          <a href="/languages/{{ cur_lang }}">
+            <button name="button" class="button">{{ cur_lang }}</button>
+          </a>
+        </span>
+        {% endfor %}
+      </div>
+
       {{ content }}
 
       {% if site.github.private != true and site.github.license %}
