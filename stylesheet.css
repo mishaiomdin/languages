@@ -40,6 +40,6 @@ th {
 
 /* GRAMMAR */
 
-mark {
-  color: #7a20f0;
+end {
+  color: red;
 }

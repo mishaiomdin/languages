@@ -29,9 +29,9 @@ The most common verbs: `sein` (to be), `haben` (to have), `machen` (to do):
 
 | Pronoun     | sein | haben | machen |
 |-------------|------|-------|--------|
-| ich         | bin  | habe  | mach<mark>e</mark>  |
-| du          | bist | hast  | mach<mark>st</mark> |
-| er, sie, es | ist  | hat   | mach<mark>t</mark>  |
-| wir         | sind | haben | mach<mark>en</mark> |
-| ihr         | seid | habt  | mach<mark>t</mark>  |
-| sie, Sie    | sind | haben | mach<mark>en</mark> |
+| ich         | bin  | habe  | mach<end>e</end>  |
+| du          | bist | hast  | mach<end>st</end> |
+| er, sie, es | ist  | hat   | mach<end>t</end>  |
+| wir         | sind | haben | mach<end>en</end> |
+| ihr         | seid | habt  | mach<end>t</end>  |
+| sie, Sie    | sind | haben | mach<end>en</end> |
