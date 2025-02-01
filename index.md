@@ -1,5 +1,5 @@
 ---
-layout: mylayout
+layout: default
 title: Languages
 header: 🏠︎
 ---
