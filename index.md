@@ -2,7 +2,7 @@
 layout: mylayout
 title:
 header: 🏠︎
-lang_code: ru
+lang_code: none
 ---
 
 # Languages script

@@ -15,23 +15,38 @@
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
-      {% if site.title and site.title != page.title %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-      {% endif %}
 
+      <!-- languages shown in menu -->
       {% assign languages = "en,de,ru,fr,he" | split: "," %}
+
+      <!-- MENU -->
       <div style="position: sticky; top: 0; background: white; padding: 10px; display: flex; gap: 10px; border-bottom: 1px solid #ccc;">
+
+        <!-- title "languages" -->
+        {% if site.title and site.title != page.title %}
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+        {% endif %}
+
         {% for cur_lang in languages %}
-        <span 
+
+        <!-- one menu button -->
+        <span>
         {% if cur_lang == page.lang_code %}
-          style="color: red; font-weight: bold;"
-        {% endif %}>
+        <a href="/languages/{{ cur_lang }}">
+          <button name="button" class="button" style="background-color: white; border: 1px">{{ cur_lang }}</button>
+        </a>
+        {% else %}
           <a href="/languages/{{ cur_lang }}">
             <button name="button" class="button">{{ cur_lang }}</button>
           </a>
+        {% endif %}
+
         </span>
+
         {% endfor %}
       </div>
+
+      
 
       {{ content }}
 
