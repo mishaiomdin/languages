@@ -1,7 +1,8 @@
 ---
 layout: mylayout
-title: 
-header: 
+title:
+header:
+lang_code: ru
 ---
 
 # Русский язык
@@ -12,4 +13,3 @@ Russian is my native language.
 |--------|-------|---------|--------|
 | петь   | пою   | поёшь   | поёт   |
 | спать  | сплю  | спишь   | спит   |
-|        |       |         |        |
