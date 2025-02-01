@@ -2,29 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css?family=Rubik');
-
-* {
-  font-family: Rubik;
-  }
-
-.button {
-  background-color: #e4edff;
-  border-radius: 10px;
-  border: 0px;
-  color: black;
-}
-.button:hover {
-  background-color: #b2c9f6;
-}
-
-.menu {
-  background-color: #dfe2e5;
-  position: sticky;
-  top: 0;
-  padding: 10px;
-  display: flex;
-  gap: 10px;
-  /*border-bottom: 1px solid #ccc;*/
-  flex-wrap: wrap; /* Breaks to next line if too long */
-}
