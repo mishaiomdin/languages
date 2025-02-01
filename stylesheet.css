@@ -37,3 +37,9 @@ td {
 th {
   background-color: #e4edff;
 }
+
+/* GRAMMAR */
+
+mark {
+  color: #7a20f0;
+}
