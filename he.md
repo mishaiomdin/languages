@@ -2,7 +2,7 @@
 layout: mylayout
 title:
 header:
-lang_code: fr
+lang_code: he
 ---
 
 # עברית
