@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
+
+/* OVERALL */
 * {
   font-family: Rubik;
-  }
+}
 
+/* BUTTONS */
 .button {
   background-color: #e4edff;
   border-radius: 10px;
@@ -14,6 +17,7 @@
   background-color: #b2c9f6;
 }
 
+/* MENU */
 .menu {
   background-color: #dfe2e5;
   position: sticky;
@@ -23,4 +27,13 @@
   gap: 10px;
   /*border-bottom: 1px solid #ccc;*/
   flex-wrap: wrap; /* Breaks to next line if too long */
+}
+
+/* TABLE */
+
+td {
+}
+
+th {
+  background-color: #e4edff;
 }
