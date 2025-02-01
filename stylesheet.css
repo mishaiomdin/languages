@@ -43,3 +43,8 @@ th {
 end {
   color: red;
 }
+
+/* RTL LANGUAGES */
+rtl {
+  direction: rtl;
+}
