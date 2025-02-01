@@ -20,12 +20,10 @@
       {% assign languages = "en,de,ru,fr,he" | split: "," %}
 
       <!-- MENU -->
-      <div style="position: sticky; top: 0; background: white; padding: 10px; display: flex; gap: 10px; border-bottom: 1px solid #ccc;">
+      <div class="menu">
 
         <!-- title "languages" -->
-        {% if site.title and site.title != page.title %}
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-        {% endif %}
+        <a href="{{ "/" | absolute_url }}">Languages</a>
 
         {% for cur_lang in languages %}
 
