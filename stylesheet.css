@@ -48,3 +48,8 @@ end {
 rtl {
   direction: rtl;
 }
+
+.hebrew {
+    direction: rtl;
+    text-align: right;
+}
