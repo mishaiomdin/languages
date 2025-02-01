@@ -1,30 +1,8 @@
 ---
-layout: default
+layout: mylayout
 title: Languages
 header: 🏠︎
 ---
-
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
-  <title>Languages</title>
-  <link rel="icon" type="image/x-icon" href="logo.png">
-  
-<style>
-  * {
-    font-family: Rubik;
-  }
-  .button {
-    background-color: #e4edff;
-    border-radius: 10px;
-    border: 0px;
-    color: black;
-  }
-  .button:hover {
-    background-color: #b2c9f6;
-  }
-  
-</style>
-</head>
 
 # Languages script
 
