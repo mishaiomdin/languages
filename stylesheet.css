@@ -34,9 +34,7 @@ button:hover {
   display: flex;
   gap: 10px;
   flex-wrap: wrap; /* Breaks to next line if too long */
-  padding-bottom: 5px;
-  border-bottom: 1px solid black;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 /* TABLE */
