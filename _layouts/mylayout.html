@@ -147,56 +147,6 @@
   </script>
 
   <script>
-    function openCloseSettings() {
-      var button = document.getElementById("settings_button");
-      var menu = document.getElementById("settings_list");
-      if (button.dataset.open === "closed") {
-          menu.style.display = "block";
-          //button.innerHTML = "✕";
-          button.dataset.open = "open";
-          localStorage.setItem("settings_open", true);
-      }
-      else {
-          menu.style.display = "none";
-          //button.innerHTML = "☰";
-          button.dataset.open = "closed";
-          localStorage.setItem("settings_open", false);
-      }
-    }
-
-    function openCloseLanguages() {
-      var button = document.getElementById("languages_button");
-      var menu = document.getElementById("languages_list");
-      if (button.dataset.open === "closed") {
-          menu.style.display = "block";
-          //button.innerHTML = "✕";
-          button.dataset.open = "open";
-          localStorage.setItem("languages_open", true);
-      }
-      else {
-          menu.style.display = "none";
-          //button.innerHTML = "☰";
-          button.dataset.open = "closed";
-          localStorage.setItem("languages_open", false);
-      }
-    }
-
-    function openCloseContents() {
-      var button = document.getElementById("contents_button");
-      var menu = document.getElementById("contents_list");
-      if (button.dataset.open === "closed") {
-          menu.style.display = "block";
-          //button.innerHTML = "✕";
-          button.dataset.open = "open";
-          localStorage.setItem("contents_open", true);
-      }
-      else {
-          menu.style.display = "none";
-          //button.innerHTML = "☰";
-          button.dataset.open = "closed";
-          localStorage.setItem("contents_open", false);
-      }
-    }
 
     function closeMenuPart(part) {
       console.log("Closing", part, `${part}_button`);
@@ -231,7 +181,6 @@
         closeMenuPart(part);
       }
     }
-
 
     function redirectToLanguage(lang_code) {
       window.location.href = `/languages/${lang_code}`;
