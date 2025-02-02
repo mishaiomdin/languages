@@ -18,8 +18,33 @@
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="/languages/stylesheet.css">
-
   </head>
+
+  <script>
+  document.getElementById("toggleMarkEndings").addEventListener("change", function () {
+      if (this.checked) {
+          markEndings();
+      } else {
+          unmarkEndings();
+      }
+  });
+
+    function unmarkEndings() {
+        if (!document.getElementById("disable-end-style")) {
+            const style = document.createElement("style");
+            style.id = "disable-end-style";
+            style.innerHTML = "end { all: unset !important; }";
+            document.head.appendChild(style);
+        }
+    }
+
+    function markEndings() {
+        const style = document.getElementById("disable-end-style");
+        if (style) style.remove();
+    }
+  </script>
+
+
   <body>
     <div class="container-lg px-3 my-5 markdown-body" style="margin-top: 0px !important">
 
@@ -53,10 +78,13 @@
 
         </span>
 
+        <!-- -->
+        <label>
+          <input type="checkbox" id="toggleMarkEndings" checked> Mark endings
+        </label>
+
         {% endfor %}
       </div>
-
-      
 
       {{ content }}
 
