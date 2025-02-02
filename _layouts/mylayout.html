@@ -110,7 +110,6 @@
 
 
   <script>
-
     // Checkbox: mark endings
     document.getElementById("toggleMarkEndings").addEventListener("change", function () {
         if (this.checked) {
@@ -177,18 +176,18 @@
     }
 
     /* Locally saved settings, opened/closed */
-    if (localStorage.getItem("mark_endings") === false) {
+    if (localStorage.getItem("mark_endings") === "false") {
       console.log("mark_endings", localStorage.getItem("mark_endings"))
       document.getElementById("toggleMarkEndings").checked = false;
     }
-    if (localStorage.getItem("settings_open") === true) {
+    if (localStorage.getItem("settings_open") === "true") {
       console.log("settings_open", localStorage.getItem("settings_open"))
-      document.getElementById("settings_button").dataset.open = false;
+      document.getElementById("settings_button").dataset.open = "closed";
       openCloseSettings();
     }
-    if (localStorage.getItem("languages_open") === true) {
+    if (localStorage.getItem("languages_open") === "true") {
       console.log("languages_open", localStorage.getItem("languages_open"))
-      document.getElementById("languages_button").dataset.open = false;
+      document.getElementById("languages_button").dataset.open = "closed";
       openCloseLanguages();
     }
   </script>
