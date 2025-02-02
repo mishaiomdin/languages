@@ -81,7 +81,7 @@
               {% if cur_lang == page.lang_code %}
                 <button class="chosen_button">{{ cur_lang }}</button>
               {% else %}
-                  <button onclick="redirectToLanguage({{ cur_lang }})">{{ cur_lang }}</button>
+                  <button onclick="redirectToLanguage('{{ cur_lang }}')">{{ cur_lang }}</button>
               {% endif %}
 
               </span>
