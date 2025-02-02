@@ -138,19 +138,6 @@
   </script>
 
   <script>
-    /* Locally saved settings, opened/closed */
-    if (localStorage.getItem("mark_endings") === false) {
-      document.getElementById("toggleMarkEndings").checked = false;
-    }
-    if (localStorage.getItem("settings_open") === true) {
-      document.getElementById("settings_button").dataset.open = false;
-      openCloseSettings();
-    }
-    if (localStorage.getItem("languages_open") === true) {
-      document.getElementById("languages_button").dataset.open = false;
-      openCloseLanguages();
-    }
-
     function openCloseSettings() {
       var button = document.getElementById("settings_button");
       var menu = document.getElementById("settings_list");
@@ -187,6 +174,22 @@
 
     function redirectToLanguage(lang_code) {
       window.location.href = `http://example.com/${lang_code}`;
+    }
+
+    /* Locally saved settings, opened/closed */
+    if (localStorage.getItem("mark_endings") === false) {
+      console.log("mark_endings", localStorage.getItem("mark_endings"))
+      document.getElementById("toggleMarkEndings").checked = false;
+    }
+    if (localStorage.getItem("settings_open") === true) {
+      console.log("settings_open", localStorage.getItem("settings_open"))
+      document.getElementById("settings_button").dataset.open = false;
+      openCloseSettings();
+    }
+    if (localStorage.getItem("languages_open") === true) {
+      console.log("languages_open", localStorage.getItem("languages_open"))
+      document.getElementById("languages_button").dataset.open = false;
+      openCloseLanguages();
     }
   </script>
 </html>
