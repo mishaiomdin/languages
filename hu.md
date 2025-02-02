@@ -15,12 +15,12 @@ I started learning some Hungarian in late 2024.
 ### To be
 
 | Pronoun |    | to be    |
-| :------ | :- | :------- |
-| I       | én | vagyok   |
-| you     | te | vagy     |
-| he, she | ő  | (van)    |
-| we      | mi | vagyunk  |
-| you     | ti | vagytok  |
+| :------ | :- | :------------------ |
+| I       | én | vagy<end>ok</end>   |
+| you     | te | vagy                |
+| he, she | ő  | (van)               |
+| we      | mi | vagy<end>unk</end>  |
+| you     | ti | vagy<end>tok</end>  |
 | they    | ők | (vannak) |
 
 ### Common verbs
