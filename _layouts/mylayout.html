@@ -79,13 +79,9 @@
           {% for cur_lang in languages %}
               <span>
               {% if cur_lang == page.lang_code %}
-              <a href="/languages/{{ cur_lang }}">
                 <button class="chosen_button">{{ cur_lang }}</button>
-              </a>
               {% else %}
-                <a href="/languages/{{ cur_lang }}">
-                  <button>{{ cur_lang }}</button>
-                </a>
+                  <button onclick="redirectToLanguage({{ cur_lang }})">{{ cur_lang }}</button>
               {% endif %}
 
               </span>
@@ -172,7 +168,7 @@
     }
 
     function redirectToLanguage(lang_code) {
-      window.location.href = `http://example.com/${lang_code}`;
+      window.location.href = `/languages/${lang_code}`;
     }
 
     /* Locally saved settings, opened/closed */
