@@ -63,6 +63,11 @@
             <span class="material-symbols-outlined">language</span>
           </button>
 
+          <!-- Contents: button -->
+          <button id="contents_button" onclick="openCloseContents()" data-open="closed">
+            <span class="material-symbols-outlined">list</span>
+          </button>
+
         </div>
 
         <!-- Settings: list -->
@@ -86,6 +91,12 @@
 
               </span>
           {% endfor %}
+        </div>
+
+        <!-- Contents: list -->
+        <div id="contents_list" class="menu_row" style="display: none">
+          <!-- Checkbox: Mark endings -->
+          <div id="toc"></div>
         </div>
 
       </div>
@@ -167,6 +178,23 @@
       }
     }
 
+    function openCloseContents() {
+      var button = document.getElementById("contents_button");
+      var menu = document.getElementById("contents_list");
+      if (button.dataset.open === "closed") {
+          menu.style.display = "block";
+          //button.innerHTML = "✕";
+          button.dataset.open = "open";
+          localStorage.setItem("contents_open", true);
+      }
+      else {
+          menu.style.display = "none";
+          //button.innerHTML = "☰";
+          button.dataset.open = "closed";
+          localStorage.setItem("contents_open", false);
+      }
+    }
+
     function redirectToLanguage(lang_code) {
       window.location.href = `/languages/${lang_code}`;
     }
@@ -184,5 +212,13 @@
       document.getElementById("languages_button").dataset.open = "closed";
       openCloseLanguages();
     }
+    if (localStorage.getItem("contents_open") === "true") {
+      document.getElementById("contents_button").dataset.open = "closed";
+      openCloseContents();
+    }
+    // Add table of contents
+    $(document).ready(function() {
+      $('#toc').toc();
+    });
   </script>
 </html>
