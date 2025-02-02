@@ -58,12 +58,12 @@
           <a href="{{ "/" | absolute_url }}">Languages</a>
 
           <!-- Settings: button -->
-          <button id="settings_button" onclick="openCloseSettings()">
+          <button id="settings_button" onclick="openCloseSettings()" data-open="closed">
             <span class="material-symbols-outlined">settings</span>
           </button>
 
           <!-- Languages: button -->
-          <button id="languages_button" onclick="openCloseLanguages()">
+          <button id="languages_button" onclick="openCloseLanguages()" data-open="closed">
             <span class="material-symbols-outlined">language</span>
           </button>
 
@@ -84,7 +84,7 @@
               <span>
               {% if cur_lang == page.lang_code %}
               <a href="/languages/{{ cur_lang }}">
-                <button style="background-color: white; border: 1px">{{ cur_lang }}</button>
+                <button class="chosen_button">{{ cur_lang }}</button>
               </a>
               {% else %}
                 <a href="/languages/{{ cur_lang }}">

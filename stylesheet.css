@@ -18,6 +18,10 @@ button:hover {
   background-color: #b2c9f6;
 }
 
+.chosen_button {
+  background-color: white;
+}
+
 /* MENU */
 .menu {
   background-color: #dfe2e5;
