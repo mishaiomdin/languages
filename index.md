@@ -26,6 +26,6 @@ My name is [Misha Iomdin](https://mishaiomdin.github.io/). I am a school student
 
 ### Languages I'm learning
 * Italian
-* Hungarian
+* <a href="/languages/hu"><button name="button" class="button">Hungarian</button></a>
 * Arabic
 
