@@ -191,18 +191,13 @@
       document.getElementById("toggleMarkEndings").checked = false;
       unmarkEndings();
     }
-    if (localStorage.getItem("settings_open") === "true") {
-      document.getElementById("settings_button").dataset.open = "closed";
-      openCloseSettings();
+
+    for (const part of ["settings", "languages", "contents"]) {
+      if (localStorage.getItem(`${part}_open`) === "true") {
+        openMenuPart(part);
+      }
     }
-    if (localStorage.getItem("languages_open") === "true") {
-      document.getElementById("languages_button").dataset.open = "closed";
-      openCloseLanguages();
-    }
-    if (localStorage.getItem("contents_open") === "true") {
-      document.getElementById("contents_button").dataset.open = "closed";
-      openCloseContents();
-    }
+    
     // Add table of contents
     $(document).ready(function() {
       $('#toc').toc();
