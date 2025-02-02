@@ -127,11 +127,13 @@
             style.innerHTML = "end { all: unset !important; }";
             document.head.appendChild(style);
         }
+        localStorage.setItem("mark_endings", false);
     }
 
     function markEndings() {
         const style = document.getElementById("disable-end-style");
         if (style) style.remove();
+        localStorage.setItem("mark_endings", true);
     }
   </script>
 
@@ -156,11 +158,13 @@
           menu.style.display = "block";
           //button.innerHTML = "✕";
           button.dataset.open = "open";
+          localStorage.setItem("settings_open", true);
       }
       else {
           menu.style.display = "none";
           //button.innerHTML = "☰";
           button.dataset.open = "closed";
+          localStorage.setItem("settings_open", false);
       }
     }
 
@@ -171,11 +175,13 @@
           menu.style.display = "block";
           //button.innerHTML = "✕";
           button.dataset.open = "open";
+          localStorage.setItem("languages_open", true);
       }
       else {
           menu.style.display = "none";
           //button.innerHTML = "☰";
           button.dataset.open = "closed";
+          localStorage.setItem("languages_open", false);
       }
     }
 
