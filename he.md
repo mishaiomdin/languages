@@ -9,7 +9,22 @@ lang_code: he
 
 Hebrew was my fourth language.
 
-## Prepositions
+## Pronouns
+
+| Person | Number | Gender | Nominative | Genitive | Dative |
+| ------ | ------ | ------ | ---------- | -------- | ------ |
+| 1      | sg     |        | אני        | אותי     | לי     |
+| 2      | sg     | m      | אתה        | אותך     | לך     |
+| 2      | sg     | f      | את         | אותך     | לך     |
+| 3      | sg     | m      | הוא        | אותו     | לו     |
+| 3      | sg     | f      | היא        | אותה     | לה     |
+| 1      | pl     |        | אנחנו      | אותנו    | לנו    |
+| 2      | pl     | m      | אתם        | אתכם     | לכם    |
+| 2      | pl     | f      | אתן        | אתכן     | לכן    |
+| 3      | pl     | m      | הם         | אותם     | להם    |
+| 3      | pl     | f      | הן         | אותן     | להן    |
+
+## Other
 
 <div class="hebrew" markdown="1">
 

@@ -9,6 +9,19 @@ lang_code: hu
 
 I started learning some Hungarian in late 2024.
 
+## Pronouns
+
+| Person   | Number | Nominative | Accusative          | Dative  |
+|:---------|:-------|:-----------|:--------------------|:--------|
+| 1        | sg     | én         | engem               | nekem   |
+| 2        | sg     | te         | téged               | neked   |
+| 3        | sg     | ő          | őt, őtet            | neki    |
+| 1        | pl     | mi         | minket, bennünket   | nekünk  |
+| 2        | pl     | ti         | titeket, benneteket | nektek  |
+| 3        | pl     | ők         | őket                | nekik   |
+| 2 formal | sg     | ön         | önt                 | önnek   |
+| 2 formal | pl     | önök       | önöket              | önöknek |
+
 
 ## Verbs
 
@@ -49,16 +62,3 @@ I started learning some Hungarian in late 2024.
 | 7   | hét    | tizenhét    | huszonhét    | hetven    | hétszáz    | hétezer    |
 | 8   | nyolc  | tizennyolc  | huszonnyolc  | nyolcvan  | nyolcszáz  | nyolcezer  |
 | 9   | kilenc | tizenkilenc | huszonkilenc | kilencven | kilencszáz | kilencezer |
-
-## Pronouns
-
-| Person   | Number | Nominative | Accusative          | Dative  |
-|:---------|:-------|:-----------|:--------------------|:--------|
-| 1        | sg     | én         | engem               | nekem   |
-| 2        | sg     | te         | téged               | neked   |
-| 3        | sg     | ő          | őt, őtet            | neki    |
-| 1        | pl     | mi         | minket, bennünket   | nekünk  |
-| 2        | pl     | ti         | titeket, benneteket | nektek  |
-| 3        | pl     | ők         | őket                | nekik   |
-| 2 formal | sg     | ön         | önt                 | önnek   |
-| 2 formal | pl     | önök       | önöket              | önöknek |
