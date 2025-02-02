@@ -15,30 +15,30 @@ I started learning some Hungarian in late 2024.
 ### To be
 
 | Pronoun |    | to be    |
-|---------|----|----------|
-|    I    | én |  vagyok  |
-|   you   | te |   vagy   |
-| he, she |  ő |   (van)  |
-|    we   | mi |  vagyunk |
-|   you   | ti |  vagytok |
-|   they  | ők | (vannak) |
+| :------ | :- | :------- |
+| I       | én | vagyok   |
+| you     | te | vagy     |
+| he, she | ő  | (van)    |
+| we      | mi | vagyunk  |
+| you     | ti | vagytok  |
+| they    | ők | (vannak) |
 
 ### Common verbs
 
-|            | pronoun | to stand | to eat | to drink | to live | to sit | to write |  to speak |
-|------------|:-------:|:--------:|:------:|:--------:|:-------:|:------:|:--------:|:---------:|
-| infinitive |         |   állni  |  enni  |   inni   |   élni  |  ülni  |   írni   |  beszélni |
-|      I     |    én   |   állok  |  eszem |   iszom  |   élek  |  ülök  |   írok   |  beszélek |
-|     you    |    te   |   állsz  |  eszel |   iszol  |   élsz  |  ülsz  |   írsz   |  beszélsz |
-|   he, she  |    ő    |    áll   |  eszik |   iszik  |    él   |   ül   |    ír    |   beszél  |
-|     we     |    mi   |  állunk  | eszünk |  iszunk  |  élünk  |  ülünk |   írunk  | beszélünk |
-|     you    |    ti   |  álltok  | esztek |  isztok  |  éltek  |  ültök |   írtok  | beszéltek |
-|    they    |    ők   |  állnak  | esznek |  isznak  |  élnek  |  ülnek |   írnak  | beszélnek |
+|            | Pronoun | to stand      | to eat        | to drink      | to live      | to sit       | to write  | to speak         |
+| :--------- | :------ | :------------ | :------------ | :------------ | :----------- | :----------- | :-------- | :--------------- |
+| infinitive |         | áll<e>ni</e>  | enni          | inni</e>      | élni         | ülni         | írni      | beszélni         |
+| I          | én      | áll<e>ok</e>  | esz<e>em</e>  | isz<e>om</e>  | él<e>ek</e>  | ül<e>ök</e>  | írok</e>  | beszél<e>ek</e>  |
+| you        | te      | áll<e>sz</e>  | esz<e>el</e>  | isz<e>ol</e>  | él<e>sz</e>  | ül<e>sz</e>  | írsz</e>  | beszél<e>sz</e>  |
+| he, she    | ő       | áll           | esz<e>ik</e>  | isz<e>ik</e>  | él           | ül           | ír        | beszél           |
+| we         | mi      | áll<e>unk</e> | esz<e>ünk</e> | isz<e>unk</e> | él<e>ünk</e> | ül<e>ünk</e> | írunk</e> | beszél<e>ünk</e> |
+| you        | ti      | áll<e>tok</e> | esz<e>tek</e> | isz<e>tok</e> | él<e>tek</e> | ül<e>tök</e> | írtok</e> | beszél<e>tek</e> |
+| they       | ők      | áll<e>nak</e> | esz<e>nek</e> | isz<e>nak</e> | él<e>nek</e> | ül<e>nek</e> | írnak</e> | beszél<e>nek</e> |
 
 ## Numerals
 
 |     |        | 10+         | 20+          | 10x       | 100x       | 1000x      |
-|-:-:-|-:-:----|-:-:---------|-:-:----------|-:-:-------|-:-:--------|-:-:--------|
+|:----|:-------|:------------|:-------------|:----------|:-----------|:-----------|
 | 0   | nulla  | tíz         | húsz         |           |            |            |
 | 1   | egy    | tizenegy    | huszonegy    | tíz       | (egy)száz  | ezer       |
 | 2   | kettő  | tizenkettő  | huszonkettő  | húsz      | kétszáz    | kétezer    |
@@ -53,7 +53,7 @@ I started learning some Hungarian in late 2024.
 ## Pronouns
 
 | Person   | Number | Nominative | Accusative          | Dative  |
-|-:-:------|-:-:----|-:-:--------|-:-:-----------------|-:-:-----|
+|:---------|:-------|:-----------|:--------------------|:--------|
 | 1        | sg     | én         | engem               | nekem   |
 | 2        | sg     | te         | téged               | neked   |
 | 3        | sg     | ő          | őt, őtet            | neki    |
