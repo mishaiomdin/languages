@@ -25,7 +25,8 @@ My name is [Misha Iomdin](https://mishaiomdin.github.io/). I am a school student
 * <a href="/languages/fr"><button name="button" class="button">French</button></a>
 
 ### Languages I'm learning
-* Italian
 * <a href="/languages/hu"><button name="button" class="button">Hungarian</button></a>
+* <a href="/languages/es"><button name="button" class="button">Spanish</button></a>
+* Italian
 * Arabic
 
