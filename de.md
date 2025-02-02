@@ -7,10 +7,13 @@ lang_code: de
 
 # Deutsch
 
-German was my fifth language.
+German was my fifth language. Since 2023, I live in Germany.
+
+## Resources
+
+* [Duden](https://www.duden.de/woerterbuch): a dictionary
 
 ## Pronouns
-Here are the personal pronouns (Personalpronomen):
 
 | Person | Number | Gender | Nominativ | Akkusativ | Dativ | Genitiv |
 |--------|--------|--------|-----------|-----------|-------|---------|

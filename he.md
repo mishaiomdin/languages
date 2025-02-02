@@ -7,7 +7,15 @@ lang_code: he
 
 # עברית
 
-Hebrew was my fourth language.
+Hebrew was my fourth language. I learned it while living in Israel for two years.
+
+## Resources
+
+* [MonOnSun](https://t.me/MonOnSun_en): my blog about Hebrew
+* [HebrewSongs](https://mishaiomdin.github.io/HebrewSongs/): songs in Hebrew with translations and interactive subtitles
+* [Pealim](https://www.pealim.com/): verb conjugator
+* [Иврить](https://t.me/modern_hebrew)
+* [Academy of the Hebrew Language](https://hebrew-academy.org.il/)
 
 ## Pronouns
 
