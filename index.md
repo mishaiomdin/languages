@@ -5,7 +5,7 @@ header: 🏠︎
 lang_code: none
 ---
 
-# Languages notes
+# Language notes
 
 Here, I will be publishing notes on the languages I learn and teach.
 Those will be various resources, as well as tables, visual explanations of grammar rules, vocabulary etc.
