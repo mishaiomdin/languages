@@ -199,6 +199,7 @@
     }
 
     function closeMenuPart(part) {
+      console.log("Closing", part, `${part}_button`);
       var button = document.getElementById(`${part}_button`);
       var menu = document.getElementById(`${part}_list`);
       menu.style.display = "none";
