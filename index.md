@@ -5,9 +5,9 @@ header: 🏠︎
 lang_code: none
 ---
 
-# Languages script
+# Languages notes
 
-Here, I will be publishing scripts for the languages I learn and teach.
+Here, I will be publishing notes on the languages I learn and teach.
 Those will be various resources, as well as tables, visual explanations of grammar rules, vocabulary etc.
 
 ## About me

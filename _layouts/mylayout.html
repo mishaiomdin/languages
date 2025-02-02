@@ -54,17 +54,17 @@
           <a href="{{ "/" | absolute_url }}">Languages</a>
 
           <!-- Settings: button -->
-          <button id="settings_button" onclick="openCloseSettings()" data-open="closed">
+          <button id="settings_button" onclick="callbackClickedMenuPart('settings');" data-open="closed">
             <span class="material-symbols-outlined">settings</span>
           </button>
 
           <!-- Languages: button -->
-          <button id="languages_button" onclick="openCloseLanguages()" data-open="closed">
+          <button id="languages_button" onclick="callbackClickedMenuPart('languages');" data-open="closed">
             <span class="material-symbols-outlined">language</span>
           </button>
 
           <!-- Contents: button -->
-          <button id="contents_button" onclick="openCloseContents()" data-open="closed">
+          <button id="contents_button" onclick="callbackClickedMenuPart('contents');" data-open="closed">
             <span class="material-symbols-outlined">list</span>
           </button>
 
@@ -145,6 +145,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://sethc23.github.io/static/js/jekyll-table-of-contents/toc.js">
   </script>
+
   <script>
     function openCloseSettings() {
       var button = document.getElementById("settings_button");
@@ -196,6 +197,40 @@
           localStorage.setItem("contents_open", false);
       }
     }
+
+    function closeMenuPart(part) {
+      var button = document.getElementById(`${part}_button`);
+      var menu = document.getElementById(`${part}_list`);
+      menu.style.display = "none";
+      button.dataset.open = "closed";
+      localStorage.setItem(`${part}_open`, false);
+    }
+
+    function openMenuPart(part) {
+      var button = document.getElementById(`${part}_button`);
+      var menu = document.getElementById(`${part}_list`);
+      menu.style.display = "block";
+      button.dataset.open = "open";
+      localStorage.setItem(`${part}_open`, true);
+    }
+
+    function closeAll() {
+      for (const part of ["settings", "contents", "buttons"]) {
+        closeMenuPart(part);
+      }
+    }
+
+    function callbackClickedMenuPart(part) {
+      var button = document.getElementById(`${part}_button`);
+      if (button.dataset.open === "closed") {
+        closeAll();
+        openMenuPart(part);
+      }
+      else {
+        closeMenuPart(part);
+      }
+    }
+
 
     function redirectToLanguage(lang_code) {
       window.location.href = `/languages/${lang_code}`;
