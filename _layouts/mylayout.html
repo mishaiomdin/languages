@@ -20,7 +20,11 @@
     <link rel="stylesheet" href="/languages/stylesheet.css">
 
     <!-- Google icons -->
+    <!--
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=settings,language" />
+  -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <style>
       .material-symbols-outlined {
@@ -52,22 +56,6 @@
 
           <!-- title "languages" -->
           <a href="{{ "/" | absolute_url }}">Languages</a>
-
-          <!-- language buttons -->
-          {% for cur_lang in languages %}
-              <span>
-              {% if cur_lang == page.lang_code %}
-              <a href="/languages/{{ cur_lang }}">
-                <button name="button" class="button" style="background-color: white; border: 1px">{{ cur_lang }}</button>
-              </a>
-              {% else %}
-                <a href="/languages/{{ cur_lang }}">
-                  <button name="button" class="button">{{ cur_lang }}</button>
-                </a>
-              {% endif %}
-
-              </span>
-          {% endfor %}
 
           <!-- Settings: button -->
           <button id="settings_button" onclick="openCloseSettings()">
