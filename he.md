@@ -12,7 +12,7 @@ Hebrew was my fourth language.
 ## Pronouns
 
 | Person | Number | Gender | Nominative | Genitive | Dative |
-| ------ | ------ | ------ | ---------- | -------- | ------ |
+| :----- | :----- | :----- | ---------: | -------: | -----: |
 | 1      | sg     |        | אני        | אותי     | לי     |
 | 2      | sg     | m      | אתה        | אותך     | לך     |
 | 2      | sg     | f      | את         | אותך     | לך     |
