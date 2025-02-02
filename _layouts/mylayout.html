@@ -62,28 +62,27 @@
         <!-- title "languages" -->
         <a href="{{ "/" | absolute_url }}">Languages</a>
 
+        <!-- language buttons -->
         {% for cur_lang in languages %}
+            <span>
+            {% if cur_lang == page.lang_code %}
+            <a href="/languages/{{ cur_lang }}">
+              <button name="button" class="button" style="background-color: white; border: 1px">{{ cur_lang }}</button>
+            </a>
+            {% else %}
+              <a href="/languages/{{ cur_lang }}">
+                <button name="button" class="button">{{ cur_lang }}</button>
+              </a>
+            {% endif %}
 
-        <!-- one menu button -->
-        <span>
-        {% if cur_lang == page.lang_code %}
-        <a href="/languages/{{ cur_lang }}">
-          <button name="button" class="button" style="background-color: white; border: 1px">{{ cur_lang }}</button>
-        </a>
-        {% else %}
-          <a href="/languages/{{ cur_lang }}">
-            <button name="button" class="button">{{ cur_lang }}</button>
-          </a>
-        {% endif %}
+            </span>
+        {% endfor %}
 
-        </span>
-
-        <!-- -->
+        <!-- Checkbox: Mark endings -->
         <label>
           <input type="checkbox" id="toggleMarkEndings" checked> Mark endings
         </label>
-
-        {% endfor %}
+        
       </div>
 
       {{ content }}
