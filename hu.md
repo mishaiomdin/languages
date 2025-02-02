@@ -25,15 +25,15 @@ I started learning some Hungarian in late 2024.
 
 ### Common verbs
 
-|            | Pronoun | to stand      | to eat        | to drink      | to live      | to sit       | to write  | to speak         |
-| :--------- | :------ | :------------ | :------------ | :------------ | :----------- | :----------- | :-------- | :--------------- |
-| infinitive |         | áll<e>ni</e>  | enni          | inni</e>      | élni         | ülni         | írni      | beszélni         |
-| I          | én      | áll<e>ok</e>  | esz<e>em</e>  | isz<e>om</e>  | él<e>ek</e>  | ül<e>ök</e>  | írok</e>  | beszél<e>ek</e>  |
-| you        | te      | áll<e>sz</e>  | esz<e>el</e>  | isz<e>ol</e>  | él<e>sz</e>  | ül<e>sz</e>  | írsz</e>  | beszél<e>sz</e>  |
-| he, she    | ő       | áll           | esz<e>ik</e>  | isz<e>ik</e>  | él           | ül           | ír        | beszél           |
-| we         | mi      | áll<e>unk</e> | esz<e>ünk</e> | isz<e>unk</e> | él<e>ünk</e> | ül<e>ünk</e> | írunk</e> | beszél<e>ünk</e> |
-| you        | ti      | áll<e>tok</e> | esz<e>tek</e> | isz<e>tok</e> | él<e>tek</e> | ül<e>tök</e> | írtok</e> | beszél<e>tek</e> |
-| they       | ők      | áll<e>nak</e> | esz<e>nek</e> | isz<e>nak</e> | él<e>nek</e> | ül<e>nek</e> | írnak</e> | beszél<e>nek</e> |
+|            | Pronoun | to stand          | to eat            | to drink          | to live          | to sit           | to write         | to speak             |
+| ---------- | ------- | ----------------- | ----------------- | ----------------- | ---------------- | ---------------- | ---------------- | -------------------- |
+| infinitive |         | áll<end>ni</end>  | enni              | inni              | él<end>ni</end>  | ül<end>ni</end>  | ír<end>ni</end>  | beszél<end>ni</end>  |
+| I          | én      | áll<end>ok</end>  | esz<end>em</end>  | isz<end>om</end>  | él<end>ek</end>  | ül<end>ök</end>  | ír<end>ok</end>  | beszél<end>ek</end>  |
+| you        | te      | áll<end>sz</end>  | esz<end>el</end>  | isz<end>ol</end>  | él<end>sz</end>  | ül<end>sz</end>  | ír<end>sz</end>  | beszél<end>sz</end>  |
+| he, she    | ő       | áll               | esz<end>ik</end>  | isz<end>ik</end>  | él               | ül               | ír               | beszél               |
+| we         | mi      | áll<end>unk</end> | esz<end>ünk</end> | isz<end>unk</end> | él<end>ünk</end> | ül<end>ünk</end> | ír<end>unk</end> | beszél<end>ünk</end> |
+| you        | ti      | áll<end>tok</end> | esz<end>tek</end> | isz<end>tok</end> | él<end>tek</end> | ül<end>tök</end> | ír<end>tok</end> | beszél<end>tek</end> |
+| they       | ők      | áll<end>nak</end> | esz<end>nek</end> | isz<end>nak</end> | él<end>nek</end> | ül<end>nek</end> | ír<end>nak</end> | beszél<end>nek</end> |
 
 ## Numerals
 
